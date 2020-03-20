@@ -17,7 +17,7 @@ interface IWelcomeProps {
 const AddWindow: FC<IWelcomeProps> = props => {
     return (
         <View>
-            <WelcomeText>Welcome {props.myProps}</WelcomeText>
+            <WelcomeText>Add window {props.myProps}</WelcomeText>
         </View>
     );
 };

@@ -7,7 +7,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AddWindow from '../AddWindow';
 import Home from '../Home';
 import ToDoList from '../ToDoList';
-
+import Icon from 'react-native-vectos-icons';
+import {FontAwesome} from '@expo/vector-icons';
 
 const WelcomeText = styled.Text`
     margin: 120px 20px;
@@ -30,13 +31,20 @@ const Welcome: FC<IWelcomeProps> = props => {
 
 const Tab = createBottomTabNavigator();
 
-function MyTabs() {
+const MyTabs:FC=()=> {
   return (
-    <Tab.Navigator initialRouteName="Home">
-      <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="AddWindow" component={AddWindow} />
+    <Tab.Navigator initialRouteName="Home"
+    tabBarOptions={{activeTintColor: '#FFCC10',
+    activeBackgroundColor: '#C0C0C0',}}>
+      <Tab.Screen name="Home" component={Home} options={{
+        tabBarIcon:({color,size})=>(
+          <FontAwesome icon="home" size={12} color={color}
+          />
+        )
+      }}/>
+     <Tab.Screen name="AddWindow" component={AddWindow} />
       <Tab.Screen name="ToDoList" component={ToDoList} />
-      <Tab.Screen name="Welcome" component={Welcome} />
+     
     </Tab.Navigator>
   );
 }

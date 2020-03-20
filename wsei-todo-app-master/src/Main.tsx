@@ -7,10 +7,9 @@ interface IMainProps { }
 
 const Main: FC<IMainProps> = props => {
     return (
-        <SafeAreaView>
-            {Platform.OS === 'ios' && <StatusBar barStyle='default' />}
+        
             <Welcome myProps='Mój props'/>
-        </SafeAreaView>
+       
     );
 };
 

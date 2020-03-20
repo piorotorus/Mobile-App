@@ -17,7 +17,7 @@ interface IWelcomeProps {
 const ToDoList: FC<IWelcomeProps> = props => {
     return (
         <View>
-            <WelcomeText>Welcome {props.myProps}</WelcomeText>
+            <WelcomeText>To do List {props.myProps}</WelcomeText>
         </View>
     );
 };
