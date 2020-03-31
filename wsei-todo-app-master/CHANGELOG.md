@@ -8,8 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changes
 
-    - 
+    -   
 
 ### Added
 
     - Initial app config
+    -11.03 Add bottomTab
+    -18.03 Change splashscreen and background
+    -22.03 start making home page
+    -24.03 finish home page with rounded image
+    -27.03 make other page with diffent image position
+    -28.03 finish other page, add a lot css styles
