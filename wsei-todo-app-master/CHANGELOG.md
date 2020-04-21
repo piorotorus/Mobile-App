@@ -6,11 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2020-02-25
 
-### Changes
 
-    -   
 
-### Added
+### Added and Changes
 
     - Initial app config
     -11.03 Add bottomTab
@@ -19,3 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     -24.03 finish home page with rounded image
     -27.03 make other page with diffent image position
     -28.03 finish other page, add a lot css styles
+    -31.03 Add addbutton and change page view and styled it
+    -21.04 Add removing functionality
+    -21.04 Refractoring code
