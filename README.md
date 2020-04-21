@@ -13,3 +13,5 @@ Change log:
     -27.03 make other page with diffent image position
     -28.03 finish other page, add a lot css styles
     -31.03 Add addbutton and change page view and styled it
+    -21.04 Add remove task utility
+    -21.04 Code refactoring
